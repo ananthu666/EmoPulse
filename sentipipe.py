@@ -1,7 +1,7 @@
 from transformers import pipeline
 
 
-nlp = pipeline("sentiment-analysis")
+nlp = pipeline("sentiment-analysis", device=0) 
 
 def scoring(text):
     results = nlp(text)
