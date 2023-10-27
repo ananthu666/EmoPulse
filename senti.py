@@ -1,7 +1,7 @@
 import os
 import openai
 from sentipipe import scoring
-openai.api_key = ""
+openai.api_key = "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"
 
 
 def analyse(text):
